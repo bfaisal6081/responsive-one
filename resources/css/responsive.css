@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px){
+  html{
+    font-size: 18px;
+  }
+  .hero-text-box p,
+  .pg p,
+  .subscribe p{
+    width: 100%;
+  }
+  .grid-container{
+    grid-template-columns: auto auto;
+  }
+  h1,h2{
+    font-size: 200%;
+  }
+  form input[type="email"]{
+    font-size: 70%;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  form input[type="submit"]{
+    font-size: 70%;
+  }
+  .about-me p{
+    font-size: 120%;
+    line-height: 100%;
+}
+.grid-container{
+  grid-template-columns: auto;
+  grid-column-gap: 0;
+ }
+}
